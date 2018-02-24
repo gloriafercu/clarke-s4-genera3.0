@@ -168,6 +168,7 @@ class App extends Component {
 				<MetaTags>
 					<meta name="description" content="Creación de una SPA sencilla con React. Refactorización de código heredado del curriculum interactivo de nuestras compañeras de Adalab del grupo clarke-s2-generatrix e integración de React." />
 					<meta property="og:title" content="Genera3.0" />
+					<meta property="og:url" content="https://gloriafercu.github.io/genera3.0" />
 					<meta property="og:image" content="../../images/cover_mobile2.png" />
 				</MetaTags>
 				<Header />
