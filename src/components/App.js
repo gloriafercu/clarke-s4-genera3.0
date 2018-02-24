@@ -15,6 +15,7 @@ import PreviewIt from './CvPreview/PreviewIt';
 import PreviewVariouSkills from './CvPreview/PreviewVariouSkills';
 import Footer from './Footer/Footer';
 import Hero from './Intro/Hero';
+import MetaTags from 'react-meta-tags';
 
 import './../scss/main.css';
 
@@ -164,6 +165,11 @@ class App extends Component {
 		}
     return (
 			<div>
+				<MetaTags>
+					<meta name="description" content="Creación de una SPA sencilla con React. Refactorización de código heredado del curriculum interactivo de nuestras compañeras de Adalab del grupo clarke-s2-generatrix e integración de React." />
+					<meta property="og:title" content="Genera3.0" />
+					<meta property="og:image" content="../../images/cover_mobile2.png" />
+				</MetaTags>
 				<Header />
 				<main>
 					<Hero />
